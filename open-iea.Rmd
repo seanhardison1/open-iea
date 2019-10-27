@@ -1,0 +1,28 @@
+---
+title: "Improving Ecosystem Reporting using principles of open data science"
+author: "Sean Hardison<sup>1,2</sup>, Kimberly Bastille<sup>2</sup>, Sarah Gaichas<sup>2</sup>, Sean Lucey<sup>2</sup> </br> </br> </br> <sup>1</sup>Department of Environmental Sciences, University of Virginia</br> <sup>2</sup> Ecosystem Dynamics and Assessment, Northeast Fisheries Science Center" 
+output:
+  xaringan::moon_reader:
+    css: ["default", "libs/EDAB_theme.css"]
+    lib_dir: libs
+    nature:
+      titleSlideClass: ["right", "middle", "my-title"]
+      highlightStyle: githubp
+      highlightLines: true
+      countIncrementalSlides: false
+  revealjs::revealjs_presentation:
+    reveal_plugins: ["notes", "search"]
+---
+
+background-image: url("images/open-iea-slide-bg.png")
+background-size: cover
+
+# Today's talk
+
+* What does Open Science mean? Why does it matter for IEA?
+
+* Getting open: Examples and lessons learned from getting reproducbile
+
+* 
+
+
