@@ -27,9 +27,9 @@ div.remark-slide-container h1 {
     line-height: 0.5em;
 }
 .title-slide h1 {
-  line-height: 0.25em;
+  line-height: 0em;
 	margin-top: 0px;
-	font-size: 30px;
+	font-size:30px;
 }
 
 div.remark-slide-container h2 {

@@ -71,7 +71,7 @@ background-size: cover
 
 # Open data science in action: Ocean Health Index
 
-Framework for assessing marine ecosystem health from local to global scales scales<sup>1</sup> 
+Framework for assessing marine ecosystem health from local to global scales<sup>1</sup> 
 
 ```{r, echo = F, message = F, fig.align = "center", out.width = "35%"}
 knitr::include_graphics(here::here("images/ohi_score_example.png"))
@@ -258,7 +258,7 @@ background-size: cover
 
 * Promotion of collaborations through public-facing products and social media
 
-* Workshops allowing for scientists to discuss science outside IEA and 
+* Workshops allowing for scientists to discuss science outside IEA
 
 ---
 background-image: url("images/open-iea-slide-bg.png")
@@ -272,11 +272,15 @@ background-size: cover
 
 * Collaborators value the public-facing aspects of the work
 
+.box-highlight[
 * Embracing open data science techniques is an iterative process
 
     * It will be difficult
     * There is a steep learning curve
     * It will be worth it! 
+]
+
+Explore our work at https://github.com/noaa-edab
 
 ---
 background-image: url("images/open-iea-slide-bg.png")
