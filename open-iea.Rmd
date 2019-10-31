@@ -52,7 +52,7 @@ background-size: cover
 "...free and unfettered access to all stages of the scientific endeavor" - *Hampton et al. 2015*
 
 ```{r, echo = F}
-knitr::include_graphics(here::here("images/open-science1.png"))
+knitr::include_graphics("images/open-science1.png")
 ```
 
 .right-column[
@@ -74,7 +74,7 @@ background-size: cover
 Framework for assessing marine ecosystem health from local to global scales<sup>1</sup> 
 
 ```{r, echo = F, message = F, fig.align = "center", out.width = "35%"}
-knitr::include_graphics(here::here("images/ohi_score_example.png"))
+knitr::include_graphics("images/ohi_score_example.png")
 ```
 
 --
@@ -131,8 +131,8 @@ Two major State of the Ecosystem (SOE) documents annually
 #     ggplot2::theme(plot.background = element_rect(fill = "transparent",colour = NA),
 #                    rect = element_rect(fill = "transparent")))
 # 
-# ggsave(map, file = here::here("images/epu_map.png"), bg = "transparent")
-knitr::include_graphics(here::here("images/epu_map.png"))
+# ggsave(map, file = "images/epu_map.png"), bg = "transparent")
+knitr::include_graphics("images/epu_map.png")
 ```
 ]
 
@@ -183,14 +183,14 @@ Start from the highest conceptual level while making technical information freel
 .pull-left[
 
 ```{r, echo = F, out.width = "100%", fig.align = "center"}
-knitr::include_graphics(here::here("images/zoomability.png"))
+knitr::include_graphics("images/zoomability.png")
 ```
 
 ]
 
 .pull-right[
 ```{r, echo = F, out.width = "100%", fig.align = "center"}
-knitr::include_graphics(here::here("images/tech-doc-gif.gif"))
+knitr::include_graphics("images/tech-doc-gif.gif")
 ```
 ]
 
@@ -224,7 +224,7 @@ background-size: cover
 3) Data are processed and structures are the same, meaning (very similar) figure code can be applied across projects.
 
 ```{r, echo = F, fig.align = "center", out.width = "75%"}
-knitr::include_graphics(here::here("images/soe_compare.png"))
+knitr::include_graphics("images/soe_compare.png")
 ```
 
 ---
@@ -236,7 +236,7 @@ background-size: cover
 Leveraging Travis CI, a **continuous integration** software, with Github and Rmarkdown documents
 
 ```{r, echo = F}
-knitr::include_graphics(here::here("images/tech_doc_CI.png"))
+knitr::include_graphics("images/tech_doc_CI.png")
 ```
 
 SOE reports, ecodata, and technical documentation hosted on Github
@@ -309,7 +309,7 @@ Robert Gamble (EDAB)</br>
 
 .pull-right[
 ```{r, echo = F}
-knitr::include_graphics(here::here("images/credits.png"))
+knitr::include_graphics("images/credits.png")
 ```
 ]
 
