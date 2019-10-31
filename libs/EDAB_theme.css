@@ -20,30 +20,29 @@ div.remark-slide-container h1 {
 	font-family: 'Titillium Web', sans-serif;
 	color: #522D80;
 	letter-spacing: -1px;
-  font-size: 27px;
+  font-size: 35px;
 }
 
 .inverse h1 {
     line-height: 0.5em;
 }
 .title-slide h1 {
-  line-height: 0em;
-	margin-top: 0px;
-	font-size:30px;
+  line-height: 0.95em;
+	margin-top: -100px;
 }
 
 div.remark-slide-container h2 {
 	font-family: 'Open Sans', sans-serif;
 	color: #522D80;
 	letter-spacing: -1px;
-	font-size: 22px;
+	font-size: 26px;
 }
 
 div.remark-slide-container h3 {
 	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	letter-spacing: -1px;
-	font-size: 15px;
+	font-size: 20px;
 	padding-top: 50px;
 }
 
