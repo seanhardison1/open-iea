@@ -1,6 +1,6 @@
 ---
 title: "Improving Ecosystem Reporting using principles of open data science"
-author: "Sean Hardison, Kimberly Bastille, Sarah Gaichas, Sean Lucey,<br> Ellen Spooner, Ben Best, Jennifer Brown, Scott Cross, Kelly Kearney" 
+author: "Sean Hardison, Kimberly Bastille, Sarah Gaichas, Sean Lucey,<br> Ellen Spooner, Ben Best, Jennifer Brown, Scott Cross, Kelly Kearney, Lynn Dewitt" 
 output:
   xaringan::moon_reader:
     css: ["default", "libs/EDAB_theme.css"]
