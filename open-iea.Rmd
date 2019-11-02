@@ -1,5 +1,5 @@
 ---
-title: "Improving Ecosystem Reporting using principles of open data science"
+title: "Improving ecosystem reporting using principles of open data science"
 author: "Sean Hardison, Kimberly Bastille, Sarah Gaichas, Sean Lucey,<br> Ellen Spooner, Ben Best, Jennifer Brown, Scott Cross, Kelly Kearney, Lynn Dewitt" 
 output:
   xaringan::moon_reader:
@@ -110,7 +110,7 @@ Two major State of the Ecosystem (SOE) documents annually
 
 *	Syntheses of ecosystem information to provide best understanding of links to management objectives
 
-* &gt; 400 data sets submitted for New England document; narrowed to ~30
+* &gt; 400 data sets submitted for New England document; filtered/aggregated to ~30
 ]
 
 .pull-right[
@@ -151,22 +151,28 @@ background-size: cover
 
 # Challenges for NE-IEA ecosystem reporting
 
-* External
-    * Audience with wide array of background and scientific training
-      * No capacity to produce documents across the spectrum of end-user needs
+.text-highlight[
+External
+]
+
+* Audience with wide array of background and scientific training
+    * No capacity to produce documents across the spectrum of end-user needs
       
-    * Managing the workload under FMC deadlines
+* Managing the workload under FMC deadlines
 
 --
 
-* Internal
-    * Data hosting and documentation
+.text-highlight[
+Internal
+]
+
+* Data hosting and documentation
   
-    * Keeping collaborators engaged
+* Keeping collaborators engaged
     
-    * Ensuring collaborators feel their work is valued
+* Ensuring collaborators feel their work is valued
     
-    * Adding new information to reports
+* Adding new information to reports
     
 ---
 background-image: url("images/open-iea-slide-bg.png")
@@ -254,11 +260,15 @@ background-size: cover
 
 * SOE products are iterative, continued collaborator engagement is critical
 
-* DOIs for data sets and documents (ongoing, but challenging for government channels)
+* .text-highlight[DOIs for data sets and documents] (ongoing, but challenging for government channels)
 
-* Promotion of collaborations through public-facing products and social media
+* .text-highlight[Promotion of collaborations] through public-facing products and social media
 
-* Workshops allowing for scientists to discuss science outside IEA
+* .text-highlight[Workshops] allowing for scientists to discuss science outside IEA
+
+```{r, echo = F, fig.align = 'center', out.width="40%"}
+knitr::include_graphics(here::here("images/iea-loop.png"))
+```
 
 ---
 background-image: url("images/open-iea-slide-bg.png")
@@ -268,9 +278,11 @@ background-size: cover
 
 * A network of dependent products related to ecosystem reporting has increased the communication, transparency, and reproducibility of our documents. 
 
-* Management finds accessibility to be a major improvement
+* Management and collaborators find accessibility to be a major improvement
 
-* Collaborators value the public-facing aspects of the work
+* Check out open science skills workshops for your team
+
+--
 
 .box-highlight[
 * Embracing open data science techniques is an iterative process
@@ -279,8 +291,6 @@ background-size: cover
     * There is a steep learning curve
     * It will be worth it! 
 ]
-
-Explore our work at https://github.com/noaa-edab
 
 ---
 background-image: url("images/open-iea-slide-bg.png")
@@ -313,41 +323,4 @@ knitr::include_graphics("images/credits.png")
 ```
 ]
 
-<!-- --- -->
-<!-- # Open science in the context of ecosystem reporting -->
-
-<!-- * Transparency - Builds trust with stakeholders and decision-makers -->
-
-
-<!-- ??? -->
-<!-- Transparency: -->
-<!-- Even if you know that stakeholders and managers won’t particularly care about the algorithms used in your multispecies model, letting them know that the methods are in the public domain will help you to establish trust.  -->
-
-<!-- Repeatability: -->
-<!-- If the loop structure of an IEA is meant to hold up over multiple iterations, the  -->
-
-<!-- Spending the time to learn reproducible workflows, through freely available tools such as R with Rmarkdown or Python with Jupyter Notebooks, along with version control software like git/github, will pay-off in the long run. -->
-
-
-<!-- Reproducibility: -->
-
-<!-- Scientists are humans, and humans make mistakes. That’s okay. Also, to paraphrase a colleague of mine, we all recognize that programming is not our full-time job. If your code works, then it works.  -->
-
-<!-- It's important that managers and colleagues are supportive of one another if we're going to move towards making workflows public facing.  -->
-
-
-<!-- -- -->
-
-<!-- * Repeatability - Give your future self a layup -->
-
-<!-- -- -->
-
-<!-- * Repeatability - Scientists should be able to execute your workflow to understand the conclusions you came to. This in mind, it’s important to remember that: -->
-
-<!--     * Scientists are (generally) not expert programmers. -->
-<!--     * Scientists are (mostly) human. -->
-
-
-<!-- --- -->
-<!-- background-image: url("images/open-iea-slide-bg.png") -->
-<!-- background-size: cover -->
+Explore our work at https://github.com/noaa-edab
